@@ -29,7 +29,7 @@ By [Xingcheng Zhang](https://www.linkedin.com/in/xingchengzhang/), [Zhizhong Li]
 
 ### Results
 
-  ![Compare](compare.svg)
+  <img src="https://rawgit.com/CUHK-MMLAB/polynet/master/compare.svg" width="60%">
 
 model|training speed* (#imgs/second)|single-crop val top-1|single-crop val top-5|single-crop test top-5 | multi-crop val top-1 | multi-crop val top-5
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
