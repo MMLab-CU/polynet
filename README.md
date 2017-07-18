@@ -33,7 +33,7 @@ Performance
   ![Compare](compare.png)
 
 model|training speed* (#imgs/second)|single-crop val top-1|single-crop val top-5|single-crop test top-5 | multi-crop val top-1 | multi-crop val top-5
-	:---:|:---:|:---:|:---:|:---:|:---:|:---:
+:---:|:---:|:---:|:---:|:---:|:---:|:---:
   [ResNet-152](https://github.com/KaimingHe/deep-residual-networks) |-| [22.16](https://github.com/facebook/fb.resnet.torch#single-crop-224x224-validation-error-rate) | [6.16](https://github.com/facebook/fb.resnet.torch#single-crop-224x224-validation-error-rate) | - | [19.38](https://arxiv.org/pdf/1512.03385.pdf) | [4.49](https://arxiv.org/pdf/1512.03385.pdf)
   ResNet-152^ |279 ( 8 GPUs)| 20.93 | 5.54 | 5.50 | 18.50 | 3.97
   ResNet-269^ |245 (16 GPUs)| 19.78 | 4.89 | 4.82 | 17.54 | 3.55
