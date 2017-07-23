@@ -22,10 +22,10 @@ By [Xingcheng Zhang](https://www.linkedin.com/in/xingchengzhang/), [Zhizhong Li]
   ![PolyNet](polynet.png)
 * [Visualization](http://ethereon.github.io/netscope/#/gist/b22923712859813a051c796b19ce5944)
 * Models
-    * [**Parrots**](http://www.parrotsdnn.org): model files to be added;
+    * **Parrots**: model files to be added;
     * [Caffe](https://github.com/yjxiong/caffe): [proto](https://drive.google.com/open?id=0B6pxsvrUJ931aTJmdEJOODhtQ3c), [model](https://drive.google.com/open?id=0B6pxsvrUJ931WXluclRBVDAtaEk).
 
-  NOTE: The model is trained using our own deep learning framework [**Parrots**](http://www.parrotsdnn.org). The caffe model is converted from the **Parrots** model, and the proto file is based on [Yuanjun's fork](https://github.com/yjxiong/caffe) of Caffe.
+  NOTE: The model is trained using our own deep learning framework **Parrots**. The caffe model is converted from the **Parrots** model, and the proto file is based on [Yuanjun's fork](https://github.com/yjxiong/caffe) of Caffe.
 
 ### Results
 
@@ -45,4 +45,4 @@ Very Deep PolyNet |290 (32 GPUs)| **18.71** | **4.25** | **4.33** | **17.36**  |
 
   ^ The ResNet models are trained by [Tong Xiao](https://github.com/Cysu);
 
-  \* Training speed is measured on [**Parrots**](http://www.parrotsdnn.org) using NVIDIA TITAN X Graphics Cards.
+  \* Training speed is measured on **Parrots** using NVIDIA TITAN X Graphics Cards.
